@@ -1,13 +1,17 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.8.4)
+      public_suffix (>= 2.0.2, < 6.0)
     asetus (0.3.0)
     backports (3.14.0)
     charlock_holmes (0.7.6)
     emk-sinatra-url-for (0.2.1)
       sinatra (>= 0.9.1.1)
     ffi (1.10.0)
-    git (1.5.0)
+    git (1.18.0)
+      addressable (~> 2.8)
+      rchardet (~> 1.8)
     haml (5.0.4)
       temple (>= 0.8.0)
       tilt
@@ -38,6 +42,7 @@ GEM
       sass (~> 3.3)
       sinatra (~> 1.4, >= 1.4.6)
       sinatra-contrib (~> 1.4, >= 1.4.6)
+    public_suffix (5.0.1)
     puma (3.11.4)
     rack (1.6.11)
     rack-protection (1.5.5)
@@ -47,6 +52,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
+    rchardet (1.8.0)
     rugged (0.28.1)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
